@@ -7,16 +7,13 @@ body {
 p {
     font-family: Montserrat;
     color: #000000;
-
     font-size: 17px;
     margin: 0;
-
     text-align: left;
     line-height: 1.5;
 }
 
 /** Common styling classes **/
-
 .bold {
     font-weight: bold;
 }
@@ -26,12 +23,12 @@ p {
     font-weight: bold;
     text-decoration: none;
 }
+
 .bold-red {
-    color:#ff8264;
+    color: #ff8264;
     font-weight: bold;
     text-decoration: none;
 }
-
 
 /** Mobile first approach **/
 /** Header **/
@@ -45,7 +42,6 @@ header {
     width: 100%;
     height: 500px;
     border-bottom: #ffffff solid 3px;
-
 }
 
 .sociallinks-container {
@@ -71,7 +67,6 @@ header {
     border-radius: 50%;
     background-repeat: no-repeat;
     background-position: center;
-
 }
 
 .icon-linkedin {
@@ -80,12 +75,10 @@ header {
 
 .icon-github {
     background-image: url('./assets/github.svg');
-
 }
 
 .icon-stackoverflow {
     background-image: url('./assets/stackoverflow.svg');
-
 }
 
 /** Portfolio **/
@@ -96,7 +89,6 @@ header {
     margin-top: 150px;
     padding-left: 50px;
     color: #ffffff;
-
 }
 
 .portfolio-name {
@@ -130,7 +122,6 @@ header {
     transform: translate(1%, 70%);
     top: 50%;
     left: 50%;
-
 }
 
 .section-heading {
@@ -139,6 +130,7 @@ header {
     font-size: 22px;
     text-align: left;
 }
+
 .summary-symbol {
     display: inline-flex;
     align-items: center;
@@ -153,7 +145,7 @@ header {
 .line {
     width: 80px;
     height: 5px;
-    background-color:#ff8264;
+    background-color: #ff8264;
     border-radius: 5px;
 }
 
@@ -161,7 +153,7 @@ header {
     width: 20px;
     height: 20px;
     margin-left: -2px;
-    background-color:#ff8264;
+    background-color: #ff8264;
     border-radius: 50%;
 }
 
@@ -176,12 +168,12 @@ header {
     padding: 30px 10px;
     margin: 0 auto;
     border-bottom: #ffffff solid 3px;
-
 }
+
 .summary-section,
 .featured-section,
 .thoughts-section {
-    background-color:#F4F4F4;
+    background-color: #F4F4F4;
     display: flex;
     flex-direction: column;
     align-items: center;
@@ -189,7 +181,6 @@ header {
     padding: 30px 10px;
     margin: 0 auto;
     border-bottom: #ffffff solid 3px;
-
 }
 
 .summary-description,
@@ -212,10 +203,8 @@ header {
     text-transform: uppercase;
     font-weight: bold;
     padding: 5px;
-    background-color:#ff8264;
+    background-color: #ff8264;
     padding: 10px;
-
-
 }
 
 .feature-description {
@@ -251,7 +240,7 @@ article a {
     margin: 3px;
     padding: 2px 2px;
     text-align: center;
-    background-color:#fdc292;
+    background-color: #fdc292;
     align-self: center;
     font-family: Roboto;
 }
@@ -261,16 +250,18 @@ article a {
     display: flex;
     flex-direction: column;
     margin: 20px;
-    
 }
-.thoughts-img{
+
+.thoughts-img {
     width: 100%;
     padding: 10px;
 }
-.blog-post-card{
+
+.blog-post-card {
     padding: 10px;
 }
-.more-thoughts-article{
+
+.more-thoughts-article {
     padding: 10px;
 }
 
@@ -286,7 +277,6 @@ article a {
 }
 
 /** Footer styling**/
-
 footer {
     display: flex;
     justify-content: center;
@@ -329,12 +319,12 @@ footer {
     font-weight: 600;
 }
 
+/*** Desktop view ***/
 @media screen and (min-width: 1024px) {
 
-    body {
-        max-width: 1400px;
-    }
 
+
+    /*** Social links***/
     .sociallinks-container {
         top: 10%;
         right: 30%;
@@ -345,6 +335,7 @@ footer {
         height: 60px;
     }
 
+    /*** Portfolio section ***/
     .portfolio-container {
         width: 45%;
         margin-left: 150px;
@@ -352,20 +343,148 @@ footer {
         padding: 50px;
     }
 
-    h1 {
-        font-size: 22px;
+    .portfolio-name {
+        font-size: 28px;
     }
 
-    h2 {
-        font-size: 83px;
+    .portfolio-title {
+        font-size: 60px;
+    }
+
+    .portfolio-subtitle {
+        font-size: 40px;
     }
 
     .profile-img {
-        transform: translate(18%, -41%);
+        transform: translate(100%, -41%);
         width: 200px;
         height: 200px;
         top: 80%;
-        right: 30%;
+        right: 10%;
+    }
+
+    /*** Summary section ***/
+    .summary-description {
+        width: 60%;
+        padding-left: 275px;
+        padding-right: 275px;
+    }
+
+    .summary-description p,
+    .tech-description p {
+        font-size: 24px;
+    }
+
+    /*** Tech section ***/
+
+    .tech-section {
+        padding-top: 40px;
+        padding-bottom: 40px;
+    }
+
+    .tech-description {
+        width: 65%;
+    }
+
+    /*** Featured projects section ***/
+    .feature-description {
+        display: flex;
+        width: 80%;
+        flex-direction: row;
+        justify-content: space-evenly;
+        flex-wrap: wrap;
+    }
+
+    .project-card {
+        margin-top: 25px;
+        width: 450px;
+    }
+
+    .project-card p {
+        font-size: 25px;
+    }
+
+    .project-tech {
+        font-size: 16px;
+    }
+
+    .project-img {
+        box-shadow: 10px 0px 10px 0px rgba(177, 176, 177, 0.5);
+    }
+
+    .featured-projects-container {
+        width: 70%;
+        flex-direction: column;
+        padding: 20px 0px 50px;
+        margin-bottom: 50px;
+    }
+
+    .feature-description {
+        padding: 5px;
+    }
+
+    .feature-description p {
+        padding-bottom: 5px;
+        font-size: 25px;
+        margin: 0;
+    }
+
+    .projects-tech {
+        grid-template-columns: repeat(6, 1fr);
+    }
+
+    /*** Thoughts section ***/
+    .thoughts-section {
+        justify-content: center;
+    }
+
+    .thoughts-description {
+        display: flex;
+        flex-direction: row;
+        flex-wrap: wrap;
+        justify-content: center;
+        padding: 5px;
+    }
+
+    .blog-post-card {
+        flex-basis: 38%;
+        margin: 12px;
+        padding: 8px;
+        justify-content: space-evenly;
+        font-size: 25px;
+        font-family: "Roboto"sans-serif;
+    }
+
+    .thoughts-img {
+        width: 400px;
+    }
+
+    .more-thoughts-description {
+        width: 70%;
+        flex-direction: column;
+        padding: 20px 0px 50px;
+        margin-bottom: 50px;
+    }
+
+    .more-thoughts-description p {
+        padding-bottom: 5px;
+        font-size: 25px;
+        margin: 0;
+    }
+
+    /*** Skills section***/
+    .skills-description {
+        font-size: 25px;
+        justify-content: space-evenly;
+    }
+
+    .skills-description div {
+        margin: 10px;
+        padding: 10px;
+    }
+
+    .contact-description p {
+        font-size: 30px;
     }
 
 }
