@@ -27,12 +27,6 @@ p {
     text-decoration: none;
 }
 
-.bold-white {
-    color: black;
-    font-weight: bold;
-    text-decoration: underline;
-}
-
 /** Mobile first approach **/
 /** Header **/
 header {
