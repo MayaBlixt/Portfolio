@@ -25,7 +25,7 @@ p {
 }
 
 .bold-red {
-    color: #ff8264;
+    color: #f64c22;
     font-weight: bold;
     text-decoration: none;
 }
@@ -145,7 +145,7 @@ header {
 .line {
     width: 80px;
     height: 5px;
-    background-color: #ff8264;
+    background-color: #f64c22;;
     border-radius: 5px;
 }
 
@@ -153,7 +153,7 @@ header {
     width: 20px;
     height: 20px;
     margin-left: -2px;
-    background-color: #ff8264;
+    background-color: #f64c22;
     border-radius: 50%;
 }
 
@@ -203,7 +203,7 @@ header {
     text-transform: uppercase;
     font-weight: bold;
     padding: 5px;
-    background-color: #ff8264;
+    background-color: #f64c22;
     padding: 10px;
 }
 
@@ -484,7 +484,7 @@ footer {
     }
 
     .contact-description p {
-        font-size: 30px;
+        font-size: 24px;
     }
 
 }
