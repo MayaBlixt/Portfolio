@@ -22,13 +22,13 @@ p {
 }
 
 .bold-not-underlined {
-    color: white;
+    color: black;
     font-weight: bold;
     text-decoration: none;
 }
 
 .bold-white {
-    color: white;
+    color: black;
     font-weight: bold;
     text-decoration: underline;
 }
@@ -36,7 +36,7 @@ p {
 /** Mobile first approach **/
 /** Header **/
 header {
-    background-image: linear-gradient(rgba(0, 0, 0, 0.3), rgba(0, 0, 0, 0.5)), url("./assets/joyce-adams-Yx6IESbq-vI-unsplash.jpg");
+    background-image: linear-gradient(rgba(0, 0, 0, 0.3), rgba(0, 0, 0, 0.5)), url("./assets/joyce-adams-small.jpg");
     background-color: rgb(109, 108, 108);
     background-size: cover;
     background-repeat: no-repeat;
@@ -250,7 +250,7 @@ footer {
     width: 100%;
 }
 
-.contact-section{
+.contact-section {
     display: flex;
     flex-direction: column;
     align-items: center;
@@ -278,7 +278,7 @@ footer {
     font-family: "Roboto"sans-serif;
     text-align: center;
     font-size: 17px;
-    color: #fff;
+    color: black;
     margin: 6px;
 }
 
