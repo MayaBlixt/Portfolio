@@ -8,12 +8,13 @@ Cross browser testing was performed on Chrome, Firefox and Edge.
 Functional testing have been done on Iphone 8 plus, Ipad and on different desktop screen sizes.
 
 # Accessibility testing & HTML Validation 
-Auditing Performed an audit using Wave (wave.webaim.org) and followed feedback to bring down alerts. No errors detected.
+Auditing Performed an audit using Wave (wave.webaim.org) and followed feedback to bring down alerts. No errors or contast errors detected.
 
-HTML Validation W3C validator (https://validator.w3.org/)
+HTML Validation W3C validator tool (https://validator.w3.org/) was used and no errors detected. 
 
-Accessibility testing Lighthouse in Chrome Dev Tools, score: 96% accessibility, 100% best practices, 100% SEO. (check assets for the image of the score) Screen reader with ChromeVox chrome extension and Iphone voice over
+Accessibility testing Lighthouse in Chrome Dev Tools, score: 100% accessibility, 92% best practices, 100% SEO.  
 
+Screen reader with ChromeVox chrome extension was used and no errors detected
 
 # View it live 
 You can view the site live @ : https://marjaanatienaho.netlify.app/
