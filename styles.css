@@ -26,6 +26,12 @@ p {
     font-weight: bold;
     text-decoration: none;
 }
+.bold-red {
+    color:#ff8264;
+    font-weight: bold;
+    text-decoration: none;
+}
+
 
 /** Mobile first approach **/
 /** Header **/
@@ -133,14 +139,49 @@ header {
     font-size: 22px;
     text-align: left;
 }
+.summary-symbol {
+    display: inline-flex;
+    align-items: center;
+    justify-content: center;
+    float: left;
+    shape-outside: inset(0px 0px 0px 0px);
+    width: 100px;
+    height: 35px;
+    margin-right: 10px;
+}
 
-.summary-section,
+.line {
+    width: 80px;
+    height: 5px;
+    background-color:#ff8264;
+    border-radius: 5px;
+}
+
+.circle {
+    width: 20px;
+    height: 20px;
+    margin-left: -2px;
+    background-color:#ff8264;
+    border-radius: 50%;
+}
+
 .tech-section,
-.featured-section,
 .other-section,
-.thoughts-section,
 .skills-section {
-    background-color: #fdc292;
+    background-color: white;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    height: auto;
+    padding: 30px 10px;
+    margin: 0 auto;
+    border-bottom: #ffffff solid 3px;
+
+}
+.summary-section,
+.featured-section,
+.thoughts-section {
+    background-color:#F4F4F4;
     display: flex;
     flex-direction: column;
     align-items: center;
@@ -171,7 +212,7 @@ header {
     text-transform: uppercase;
     font-weight: bold;
     padding: 5px;
-    background-color: white;
+    background-color:#ff8264;
     padding: 10px;
 
 
@@ -210,17 +251,29 @@ article a {
     margin: 3px;
     padding: 2px 2px;
     text-align: center;
-    background-color: white;
+    background-color:#fdc292;
     align-self: center;
     font-family: Roboto;
 }
 
-.blog-description,
+.thoughts-description,
 .more-thoughts-description {
     display: flex;
     flex-direction: column;
-    width: 100%;
+    margin: 20px;
+    
 }
+.thoughts-img{
+    width: 100%;
+    padding: 10px;
+}
+.blog-post-card{
+    padding: 10px;
+}
+.more-thoughts-article{
+    padding: 10px;
+}
+
 
 .skills-description {
     display: flex;
@@ -240,7 +293,7 @@ footer {
     flex-wrap: wrap;
     padding-top: 50px;
     padding-bottom: 50px;
-    background-color: #ff8264;
+    background-color: #fdc292;
     width: 100%;
 }
 
@@ -258,7 +311,6 @@ footer {
     font-family: "Montserrat", sans-serif;
     font-size: 21px;
     color: #fff;
-    font-weight: bold;
     margin: 0;
     padding-top: 10px;
     padding-bottom: 40px;
@@ -274,6 +326,7 @@ footer {
     font-size: 17px;
     color: black;
     margin: 6px;
+    font-weight: 600;
 }
 
 @media screen and (min-width: 1024px) {
